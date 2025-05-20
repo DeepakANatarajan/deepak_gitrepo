@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #1e1e1e;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #444;
+}
+
+.repo-list {
+  
+  margin: auto;
+}
+
+.repo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #444;
+  transition: background 0.2s ease;
+}
+
+.repo-item:hover {
+  background-color: #dbd8d8;
+}
+
+.repo-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.repo-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.repo-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #0e0d0d;
+}
+
+.repo-desc {
+  font-size: 0.9rem;
+  color: #352424;
+  margin-top: 4px;
+}
+
+.repo-owner {
+  font-size: 0.85rem;
+  color: #271313;
+  margin-top: 2px;
+}
+
+.repo-stars {
+  font-weight: bold;
+  color: #facc15;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-right:10px;
+}
