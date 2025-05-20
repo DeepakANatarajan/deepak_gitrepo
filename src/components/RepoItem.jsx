@@ -12,7 +12,7 @@ export default function RepoItem({ repo }) {
         </div>
       </div>
       <div className="repo-stars">
-        <FaStar /> {(repo.stargazers_count)}
+        <FaStar /> {repo.stargazers_count > 1000  ? `${(repo.stargazers_count / 1000).toFixed(1)}k`  : repo.stargazers_count}
       </div>
     </div>
   );

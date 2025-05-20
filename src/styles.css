@@ -17,7 +17,6 @@ body {
 }
 
 .repo-list {
-  
   margin: auto;
 }
 
@@ -27,8 +26,10 @@ body {
   justify-content: space-between;
   background-color: #ffffff;
   border-radius: 8px;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #444;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid #444;
   transition: background 0.2s ease;
 }
 
@@ -44,6 +45,7 @@ body {
 
 .avatar {
   width: 48px;
+  margin-left: 5px;
   height: 48px;
   border-radius: 50%;
 }
